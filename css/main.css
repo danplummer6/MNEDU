@@ -24,6 +24,10 @@ p{
     border:none;
 }
 
+.navbar-fixed-top .navbar-brand {
+    display: none;
+}
+
 .navbar-default .navbar-nav > li > a{
     font-family: 'Lato', sans-serif;
     font-weight: 900;
@@ -255,6 +259,24 @@ footer {
 
     .page-header{
         margin-top: 25px;
+    }
+
+    /* - Display Company name in mobile */
+
+    .navbar-fixed-top .navbar-brand {
+        display: block;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+    }
+
+    .navbar-fixed-top .navbar-brand:hover {
+        color: #CCD1D6;
+    }
+
+    .skinny{
+        font-weight: 400;
+        font-size: 0.9em;
     }
 
 }
