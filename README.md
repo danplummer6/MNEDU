@@ -1,0 +1,2 @@
+# MNEDU
+Minnesota Educational Tours
