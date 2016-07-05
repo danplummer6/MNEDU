@@ -1,0 +1,260 @@
+body {
+    padding-top: 70px;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.shadow-img{
+    box-shadow: 5px 5px 15px #888888;
+    -webkit-box-shadow: 5px 5px 15px #888888;
+    -moz-box-shadow: 5px 5px 15px #888888;
+    -o-box-shadow: 5px 5px 15px #888888;
+}
+
+/*---------- Navigation ----------*/
+
+.navbar-default{
+    background-color: #0D457F;
+    border:none;
+}
+
+.navbar-default .navbar-nav > li > a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 1.2em;
+    background: none;
+    text-decoration: none;
+    position: relative;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: #CCD1D6;
+}
+
+.navbar-default .navbar-nav > li > a:after{
+    content: '';
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 3px solid #CCD1D6;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.navbar-default .navbar-nav > li > a:hover:after{
+    color: white;
+    width: 100%;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+    background: none;
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+    padding: 2px;
+}
+
+
+/*---------- Home Page ----------*/
+
+hr{
+    border-color: white; /* hides div line */
+}
+
+
+.cta-text{
+    font-size: 1.5em;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.parallax-window{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.red-btn{
+    background-color:transparent;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    border:2px solid #A0261A;
+    color: #A0261A;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.red-btn:hover{
+    background-color: #A0261A;
+    border:2px solid #A0261A;
+    color: white;
+}
+
+/*---------- About ----------*/
+
+.about-head{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: -50px;
+    background: url('../images/clouds-head.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#about-text{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 7em;
+    color: #0D457F;
+}
+
+#about-btn{
+    margin-bottom: 40px;
+}
+
+.blue-plane{
+    color: #0D457F;
+}
+
+/*---------- Tours ----------*/
+
+.tours-head{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: -50px;
+    background: url('../images/plane-sky.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#tours-text{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 7em;
+    color: white;
+}
+
+.white-plane{
+    color: white;
+}
+
+.tours-list{
+    font-family: 'Lato', sans-serif;
+}
+
+/*---------- Contact ----------*/
+
+#contact{
+    border: 5px solid #0D457F;
+    padding:20px;
+    background: url('../images/clouds-head.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.contact-head{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.thank-you{
+    text-align: center;
+}
+
+.thanks-head{
+    font-size: 6em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.thanks-body{
+    font-size: 1.5em;
+}
+
+.back{
+    font-size: 2.5em;
+}
+
+.back:hover{
+    text-decoration: none;
+    color: #6BACC2;
+}
+
+/*---------- FAQ ----------*/
+
+.page-header{
+    margin-top: -25px;
+}
+
+/*---------- Footer ----------*/
+
+footer {
+    padding: 2em;
+    margin-top: 50px;
+    border-top: 1px solid #B8B8B8;
+    color: #999;
+    text-align: center;
+    clear: both;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+@media(max-width:768px) {
+    
+    .navbar-default .navbar-nav > li > a {
+      text-align: center;
+      font-size: 1.5em;
+    }
+
+    .page-header{
+        margin-top: 25px;
+    }
+
+}
